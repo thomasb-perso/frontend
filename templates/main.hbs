@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>{{title}}</title>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+
+
+    <meta name="schibsted-fe-version" content="{{version}}" />
+
+
+
+    {{# style}}
+    <link rel='stylesheet' type='text/css' href='{{{href}}}' />
+    {{/ style}}
+
+    {{# script}}
+    <script type='text/javascript' src='{{{src}}}'></script>
+    {{/ script}}
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+
+</head>
+<body class="{{title}}">
+
+
+
+<div id="pageloader">
+    <div class="pageloader-icon">
+
+    </div>
+</div>
+
+
+<div class="api-client-header">{{> header}}</div>
+<div class="api-client-container">{{> api-client}}</div>
+<div class="api-client-footer">{{> footer}}</div>
+
+
+
+</body>
+</html>

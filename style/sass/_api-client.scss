@@ -1,0 +1,32 @@
+
+.page-header{
+  background-color: $header-background;
+  color: $header-font-color;
+  padding:2%;
+}
+select{
+  margin-left:5%;
+  font-size: 16px;
+}
+.method-container{
+  margin-left:2%;
+  font-size: 16px;
+}
+
+.response-container
+{
+  padding:1%;
+  background-color:#cccccc;
+  border: solid 1px #444444;
+}
+
+pre {
+  margin: 5%;
+  padding:2%;
+  font-family: $code-font;
+  font-size: $code-font-size;
+}
+.api-client-container{
+  padding: 5%;
+  background: url('img/bgpattern.gif') repeat;
+}

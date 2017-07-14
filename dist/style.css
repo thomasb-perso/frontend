@@ -1,0 +1,38 @@
+.page-header {
+  background-color: #020202;
+  color: #efefef;
+  padding: 2%; }
+
+select {
+  margin-left: 5%;
+  font-size: 16px; }
+
+.method-container {
+  margin-left: 2%;
+  font-size: 16px; }
+
+.response-container {
+  padding: 1%;
+  background-color: #cccccc;
+  border: solid 1px #444444; }
+
+pre {
+  margin: 5%;
+  padding: 2%;
+  font-family: "Source Code Pro,Monaco,Lucida Console,monospace";
+  font-size: 13px; }
+
+.api-client-container {
+  padding: 5%;
+  background: url("img/bgpattern.gif") repeat; }
+
+html {
+  background: #369;
+  word-wrap: break-word;
+  font-family: Helvetica, sans-serif; }
+
+body {
+  background: #efefef;
+  width: 80%px;
+  margin: 20px;
+  color: #333; }
